@@ -1,0 +1,129 @@
+/* todo.css */
+body, html {
+    height: 100%;
+    background: linear-gradient(135deg, #ff6347, #ffffff); 
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(138, 130, 130, 0.1);
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .checkbox {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  
+  .checkbox input[type="checkbox"] {
+    margin-top: 4px;
+  }
+  
+  .done-true {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .unstyled {
+    list-style-type: none;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .btn-primary:active {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+  /* todo.css */
+.card {
+    background: linear-gradient(135deg, #c4341a, #9c7777); 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 180px;
+  }
+  .text-center {
+    background: linear-gradient(135deg, #ff6347, #ffffff); 
+    color: #4d2b04;
+    border: 8px solid #ddd;
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+  }
+  .clear-button {
+    background-color: #4936f4; /* Red */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .clear-button:hover {
+    background-color: #440606; /* Darker Red */
+  }
+  
+  /* Style for Clear All button */
+button {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  /* Style for Delete button */
+  button.delete {
+    background: linear-gradient(45deg, #ff4b2b, #e5bac4);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
